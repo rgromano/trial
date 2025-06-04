@@ -1,0 +1,38 @@
+{
+  "name": "trial",
+  "version": "1.0.0",
+  "description": "This repository contains planning documents and requirements for the planned Job Board platform. See [SPEC.md](SPEC.md) for the complete specification.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "seed": "ts-node seeds/seed.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "eslint": "^9.28.0",
+    "husky": "^9.1.7",
+    "jest": "^29.7.0",
+    "next": "^14.2.29",
+    "next-i18next": "^15.4.2",
+    "prettier": "^3.5.3",
+    "prisma": "^6.9.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.25.51"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-next": "^0.0.0",
+    "jest-environment-jsdom": "^30.0.0-beta.3"
+  }
+}
